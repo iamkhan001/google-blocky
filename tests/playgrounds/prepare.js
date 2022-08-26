@@ -21,7 +21,7 @@
   // compiled version.  Please see issue #5557 for more information.
   const isIe = navigator.userAgent.indexOf('MSIE') !== -1 ||
       navigator.appVersion.indexOf('Trident/') > -1;
-  const localhosts = ['localhost', '127.0.0.1', '[::1]'];
+  const localhosts = ['localhost', '34.69.113.41', '127.0.0.1', '[::1]'];
 
   if (localhosts.includes(location.hostname) && !isIe) {
     // We can load Blockly in uncompiled mode.
